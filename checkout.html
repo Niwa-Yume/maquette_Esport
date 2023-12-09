@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/checkout.css">
+    <title>Check Out</title>
+</head>
+
+<!--LE HEADER-->
+<header>
+    <nav>
+        <!--Partie de gauche de la Nav bar-->
+        <ul id="navbar">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="#">About us </a></li>
+            <li><a href="shop.html">SHOP </a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div id="logo-header">
+            <img src="image/logo/logo.png" alt="logo principal">
+        </div>
+        <!--Partie de droite de la Nav bar-->
+        <div id="partieDroite">
+            <img src="image/icon/panier.png" alt="Panier achat">
+            <img src="image/icon/profile.png" alt="profile">
+        </div>
+    </nav>
+</header>
+
+
+
+<!--LE BODY-->
+
+<body>
+
+    <!--la bannière du site-->
+
+    <section id="banniere"></section>
+
+    <!--les champs du checkout-->
+
+    <section id="contenue-page">
+        <div id="colonne-1">
+
+            <!--les champs du checkout-->
+
+            <div class="titre-bar">
+                <a href="#">Envio</a>
+                <img src="image/AUTRE-PAGE/ITEM/achat item/formulaire achat/ic_baseline-minus.svg" alt="">
+            </div>
+
+            <!--maps-->
+
+            <div id="maps">
+                <!--contenue-->
+                <div class="contenue">
+                    <a href="#">ESCRIBE TU DIRECCIÓN</a>
+                    <img src="image/PAGE_CHECKOUT/icon/icon loupe.svg" alt="loupe">
+                </div>
+                <!--maps-->
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.0319697233217!2d6.128485413041171!3d46.189922484603684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c7b2f5cd9b48b%3A0x3c089fe6d2e759b0!2zw4ljb2xlIENSRUEgR2Vuw6h2ZQ!5e0!3m2!1sfr!2sch!4v1701868912753!5m2!1sfr!2sch"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!--contenue-->
+                <div class="contenue">
+                    <a href="#">COMENTARIOS DE ENVIO</a>
+                    <img src="image/PAGE_CHECKOUT/icon/Vector (9).svg" alt="message">
+                </div>
+            </div>
+
+
+            <!--DONNE PERSONNALES-->
+
+            <div class="titre-bar">
+                <a href="#">Datos Personales</a>
+                <img src="image/AUTRE-PAGE/ITEM/achat item/formulaire achat/ic_baseline-minus.svg" alt="">
+            </div>
+            <!--les champs des donnnes personalise-->
+            <div id="datos-personnales">
+                <div class="contenue">
+                    <p>Nombre</p>
+                </div>
+                <div class="contenue">
+                    <p>Correo</p>
+                </div>
+                <div class="contenue">
+                    <p>Telefono</p>
+                </div>
+            </div>
+
+            <!--DONNE DE PAIEMENT-->
+
+            <div class="titre-bar" id="facturation">
+                <a href="#">DATOS DE FACTURATION</a>
+                <img src="image/PAGE_CHECKOUT/icon/icon plus.svg" alt="">
+            </div>
+
+            <!--FORME DE PAIEMENT-->
+            <div>
+                <div class="titre-bar" id="facturation">
+                    <a href="#">FORMA DE PAGO</a>
+                    <img src="image/PAGE_CHECKOUT/icon/icon plus.svg" alt="">
+                </div>
+
+                <div id="liste-paiment">
+                    <img src="image/PAGE_CHECKOUT/paiement format/visa.svg" alt="">
+                    <img src="image/PAGE_CHECKOUT/paiement format/mastercard.svg" alt="">
+                    <img src="image/PAGE_CHECKOUT/paiement format/american-express.svg" alt="">
+                    <img src="image/PAGE_CHECKOUT/paiement format/paypal-2.svg" alt="">
+                    <img src="image/PAGE_CHECKOUT/paiement format/google-pay.svg" alt="">
+                    <img src="image/PAGE_CHECKOUT/paiement format/apple-pay.svg" alt="">
+                </div>
+            </div>
+
+
+            <!--FIN DE COLONNE 1-->
+        </div>
+
+        <!--DEBUT DE COLONNE 2-->
+        <div id="colonne-2">
+
+            <!--Titre du panier-->
+
+            <p id="panier-titre">ORDEN</p>
+
+            <!--Contenue du panier-->
+
+            <div id="contenue-panier">
+                <div id="info-contenue-panier">
+
+                    <!--Ligne du panier-->
+
+                    <div class="ligne-panier">
+
+                        <div>
+                            <h3>Moctezuma's <br> vengeance hoodie</h3>
+                            <p>SIZE : XS</p>
+                            <div class="format">
+                                <span>QTY: </span> 
+                                <div id="bouton">
+                                    <div id="contenue-bouton">
+                                        <a href="#">-</a>
+                                        <input type="text" value="1">
+                                        <a href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Prix du panier-->
+
+                        <div class="image-panier">
+                            <p>
+                                $250.00
+                            </p>
+                            <img src="image/PAGE_CHECKOUT/Order/image 2.svg" alt="">
+                        </div>
+
+                    </div>
+
+                    <!--Ligne du panier-->
+
+                    <div class="ligne-panier">
+
+                        <div>
+                            <h3>AIR JORDAN 1  <br> AZTEKA ESPORTS</h3>
+                            <p>SIZE : XS</p>
+                            <div class="format">
+                                <span>QTY: </span> 
+                                <div id="bouton">
+                                    <div id="contenue-bouton">
+                                        <a href="#">-</a>
+                                        <input type="text" value="1">
+                                        <a href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Prix du panier-->
+
+                        <div class="image-panier">
+                            <p>
+                                $198.00
+                            </p>
+                            <img src="image/PAGE_CHECKOUT/Order/image 3.svg" alt="">
+                        </div>
+
+                    </div>
+
+                    <!--Ligne du panier-->
+
+                    <div class="ligne-panier">
+
+                        <div>
+                            <h3>AIR JORDAN 1 <br> AZTEKA ESPORTS</h3>
+                            <p>SIZE : XS</p>
+                            <div class="format">
+                                <span>QTY: </span> 
+                                <div id="bouton">
+                                    <div id="contenue-bouton">
+                                        <a href="#">-</a>
+                                        <input type="text" value="1">
+                                        <a href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Prix du panier-->
+
+                        <div class="image-panier">
+                            <p>
+                                $198.00
+                            </p>
+                            <img src="image/PAGE_CHECKOUT/Order/image 1.svg" alt="">
+                        </div>
+
+                    </div>
+
+                    <!--Ligne du panier-->
+                </div>
+            </div>
+
+            <!--Prix du panier-->
+
+            <div>
+                <div id="prix-panier">
+                    
+
+                    <div class="payer" id="entete">
+                        <p>Subtotal</p>
+                        <p class="prix">$646.00</p>
+                    </div>
+                    <div class="payer">
+                        <p class="taille-texte">+  IVA  (16%)</p>
+                        <p class="prix taille-texte">$749.36</p>
+                    </div>
+                    <div class="payer">
+                        <p class="taille-texte">+  ENVIO  ($25)</p>
+                        <p class="prix taille-texte">$774.36</p>
+                    </div>
+
+
+                    <hr>
+
+                    <div class="payer">
+                        <p>Total</p>
+                        <p class="prix">$774.36</p>
+                    </div>
+
+                </div>
+                
+                <div id="bouton-panier">
+                    <a href="#">PAGAR</a>
+                </div>
+            </div>
+
+            <!--FIN DE COLONNE 2-->
+        </div>
+    </section>
+
+</body>
+
+
+<!--LE FOOTER-->
+
+<footer>
+    <div id="footer">
+        <div id="logo-footer">
+            <img src="image/logo/logo.png" alt="logo2">
+        </div>
+
+        <div id="footer-navigation">
+            <ul>
+                <li><a href="#">NAVIGATION</a></li>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">SHOP </a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">TEAMS</a></li>
+            </ul>
+        </div>
+
+        <div id="categories-footer">
+            <ul>
+                <li><a href="#">CATEGORIES</a></li>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">SHOP </a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">TEAMS</a></li>
+            </ul>
+        </div>
+        <div id="help-and-support">
+            <ul>
+                <li><a href="#">HELP AND SUPPORT</a></li>
+                <li><a href="#">Home </a></li>
+                <li><a href="#">SHOP </a></li>
+                <li><a href="#">EVENTS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="reseau">
+        <img src="image/LOGO RESEAU/twitch.svg" alt="">
+        <img src="image/LOGO RESEAU/youtube.svg" alt="">
+        <img src="image/LOGO RESEAU/facebook.svg" alt="">
+        <img src="image/LOGO RESEAU/instagram.svg" alt="">
+        <img src="image/LOGO RESEAU/X.svg" alt="">
+        <img src="image/LOGO RESEAU/tik tok.svg" alt="">
+    </div>
+</footer>
+
+</html>

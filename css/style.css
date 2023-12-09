@@ -1,0 +1,526 @@
+/**Importation des polices*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+@font-face {
+    font-family: "Rugen Expanded";
+    src: url("../assets/police/rugenexpanded-dokge.otf")
+}
+
+* a{
+    text-decoration: none;
+
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+body{
+    font-family:"Rugen Expanded", sans-serif;
+    background: radial-gradient(circle, rgba(0,119,117,1) 0%, rgba(8,16,29,1) 100%);
+}
+
+
+
+/********** la virgule marche comme un ET**********/
+#navbar, #partieDroite{
+    flex-grow: 1;
+    width: 40%;
+}
+
+#logo-header{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+nav img{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-decoration: none;
+    font-size: larger;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#partieDroite{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 40px;
+    margin-right: 50px;
+}
+#partieDroite img{
+    width: 30px;
+}
+
+
+/**********SECTION 1**********/
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#section1 img{
+    width: 100%;
+    position: relative;
+}
+#divSection1{
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+#section1 p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1 a{
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: rgb(255, 255, 0);
+    padding: 16px 48px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#blue{
+    color: aqua;
+    font-size: 4rem;
+    font-weight: 500;
+}
+#blanc{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/**********SECTION 2**********/
+#section2{
+    display: flex;
+    
+}
+#BANNIERE{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+#clip-stream{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#twitch{
+    display: flex;
+    justify-content: space-evenly;
+    background: radial-gradient(circle, rgba(18, 77, 76, 0.697) 0%, rgba(8,16,29,1) 100%);
+    padding-top: 20px;
+}
+
+#Creators{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+}
+#top-event{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+}
+
+.bouton-twitch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**********SECTION 3**********/
+#section3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #08101d;
+    padding-top: 20px;
+}
+#TableauScore{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+.testscore{
+    width: 331px;
+    height: 204px;
+    border-radius: 5px;
+}
+#TableauScore img{
+    border:4px solid black;
+}
+
+/**********SECTION 4**********/
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #08101d;
+
+}
+
+/**********Bannière avec bouton**********/
+
+#banniere{
+    display: flex;
+    background-image: url("../image/Banner/Rectangle\ 17.svg");
+    background-size:cover;
+    background-position: center;
+    width: 95vw;
+    height: 70vh;
+    color: white;
+}
+#banniere h3{
+    font-size: 3rem;
+}
+#banniere p{
+    font-size: 0.8rem;
+}
+#test-marge{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+#bouton-maillot{
+    background-color: #ffff00;
+    color: white;
+}
+#bouton-maillot{
+    border: 1px solid #ffff00;
+    display: flex;
+    background-color: #ffb202;
+    padding: 10px 42px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-family: "Rugen Expanded", sans-serif;
+}
+#bouton-maillot a{
+    color: white;
+    font-family: "Rugen Expanded", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#bouton-maillot2{
+    border: 1px solid #ffff00;
+    display: flex;
+    padding: 10px 42px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+#bouton-maillot2:hover{
+    background-color: #ffb202;
+    color: white;
+    font-family: "Rugen Expanded", sans-serif;
+}
+
+#bouton-banner{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 10 px;
+    gap: 40px;
+    width: 10%;
+}
+
+#article{
+    display: flex;
+    gap: 10px;
+    background-color: #08101d;
+}
+.etoile{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.etoile p{
+    font-size: large;
+    align-items: center ;
+    padding-top: 10px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.article img{
+    border-radius: 10px;
+}
+#info-article{
+    background-color: black;
+}
+.prix-article{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.nom-article{
+    text-align: left;
+    padding-top: 20px;
+}
+.nom-article p{
+    margin-left: 10px;
+}
+.BOUTON{
+    display: flex;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 0);
+    padding: 10px 42px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+/**SECTION TEAM*/
+#TEAM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 50px;
+    background-image: url("../image/TEAM/Union.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 20px;
+}
+#sectionTeam{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: none;
+}
+#liste-de-jeu{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 41%;
+}
+
+#liste-des-joueurs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    
+}
+
+.carte-de-joueur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.carte-de-joueur h1{
+    font-size: 1.3rem;
+    
+}
+.carte-de-joueur img{
+    width: fit-content;
+    height: auto;
+    margin-bottom: 20px;
+}
+img.carte-de-joueur-reseau{
+    width:fit-content;
+    height: 50px    ;
+}
+.carte-de-joueur p{
+    opacity: 0.5;
+}
+#generalTeam{
+    position: relative;
+    margin-bottom: 40px;
+}
+#generalTeam #fond{
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+}
+#coupe-et-texte{
+    display: flex;
+    padding-top: 50px;
+}
+#coupe{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    height: 100%;
+}
+#texte{
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+
+}
+#texte h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+#texte p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: left;
+}
+.arrow{
+    position: absolute;
+}
+
+/**SECTION NEWSLETTER*/
+
+
+#texte-newsletter {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0px 5px 0px #000000aa;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#texte-newsletter h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: turquoise;
+}
+
+#image-input-et-texte{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../image/newletter/pyramide.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 20px;
+    
+}
+
+#input-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+#input-newsletter img{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #ffb202;
+    border-radius: 4px;
+    overflow: hidden;
+    border-radius: 0px 4px 4px 0px;
+    height: 7.5vh;
+    width: 3.5vw;
+}
+#input-newsletter input{
+    color: #000000;
+    border: 2px solid white;
+    height: 7vh;
+    width: 20%;
+    background:rgba(186, 184, 184, 0.7);
+    padding-right: 5px;
+    border-radius: 4px 0px 0px 4px;
+    background-color: transparent;
+}
+
+
+/**FOOTER */
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 50px;
+}
+
+#logo-footer img{
+    width: 250px;
+    height: auto;
+}
+
+#footer-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#reseau img{
+    margin-bottom: 15px;
+}
+
+#help-and-support{
+    display: flex;
+    align-items: top;
+    margin-bottom: 45px;
+}

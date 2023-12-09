@@ -1,0 +1,439 @@
+/**********GLOBAL**********/
+
+@font-face {
+    font-family: "Rugen Expanded";
+    src: url("../assets/police/rugenexpanded-dokge.otf")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&family=Libre+Franklin:wght@200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+* a{
+    text-decoration: none;
+    
+}
+/**********HEADER**********/
+
+/********** la virgule marche comme un ET**********/
+#navbar, #partieDroite{
+    flex-grow: 1;
+    width: 40%;
+}
+
+#logo-header{
+    text-align: center;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+nav img{
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    text-decoration: none;
+    font-size: larger;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#partieDroite{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    gap: 40px;
+    margin-right: 50px;
+}
+#partieDroite img{
+    width: 30px;
+}
+
+
+
+/**********BODY**********/
+body{
+    font-family:"Lato", sans-serif;
+    background: linear-gradient(243.93deg, rgba(254, 167, 0, 0.42) 4.07%, rgba(0, 174, 239, 0.42) 104.59%);
+    background-color: black;
+    z-index: 1;
+}
+/**********Container**********/
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+/**********IMAGE**********/
+#image-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#duo-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+#autre-pov{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+/**********DESCRIPTION**********/
+#Description-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    height: fit-content;;
+    color: white;width: 40vw;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#description{
+    font-size: 0.5em;
+}
+#texte h2{
+    font-size: 3rem;
+}
+#texte p{
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+
+#texte-et-block p{
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+/**********BLOCK tailles**********/
+
+#liste-taille{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start; 
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+#liste-taille a{
+    background-color:#054a59 ;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+#liste-taille a:hover{
+    background-color:#21ecb5 ;
+    color: black;
+    padding: 10px;
+}
+
+/*********QUANTITE**********/
+#quantite{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+#qty{
+    opacity: 0.7;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+#quantite div{
+    border-radius: 5px;
+}
+
+
+/**********LIGNE QUANTITE ET BOUTON**********/
+
+#bouton-quantite-share{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 20px;
+
+}
+
+#bouton-quantite-share > *{
+    width: 1px;
+    flex-grow: 1;
+    max-width: 30%;
+}
+
+/**********BOUTON quantite**********/
+#bouton{
+    background-color:  #312f2c;
+    border-radius: 10px;
+    padding: 10px;
+}
+#contenue-bouton{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+#contenue-bouton input{
+    display: block;
+    width: 1px;
+    font-size: 2rem;
+    color: black;
+    background-color:  white;
+    flex-grow: 1;
+    text-align: center;
+}
+#contenue-bouton a{
+    font-size: 2rem;
+    color: black;
+    background-color:  #0e3f46;
+    flex-grow: 1;
+}
+
+/**********BOUTON partages**********/
+#share{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+
+/**********BOUTON AJOUTER AU PANIER**********/
+#bouton-ajouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    gap: 20px;
+    background: linear-gradient(180deg, #21ECB5 0%, #054A59 100%);
+    height: 5vh;
+}
+/**********BOUTON ACHETER**********/
+#bouton-acheter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    background: linear-gradient(180deg, #FFB202 0%, #E7902A 100%);
+    height: 5vh;
+}
+
+/********** HR **********/
+
+hr{
+    width: 100%;
+    color: grey;
+    font-style: bold;
+}
+/********** Description **********/
+h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#description p{
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+#titre-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/********** SECTION 2 **********/
+
+/**********Article**********/
+#choix-alternatif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#liste-articles{
+    display: flex;
+    gap: 30px;
+    background-color: #191a1b;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.ligne-article{
+    display: inline-flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.etoile{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.etoile p{
+    font-size: large;
+    align-items: center ;
+    padding-top: 10px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.article img{
+    border-radius:  7px 7px 0px 0px;
+    height: fit-content;
+}
+#info-article{
+    background-color: black;
+    border-radius: 0px 0px 7px 7px;
+}
+.prix-article{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.nom-article{
+    text-align: left;
+    padding-top: 20px;
+    
+}
+.nom-article p{
+    font-size: 0.75rem;
+}
+
+/**********BANNER**********/
+
+
+#banner-item{
+    background-image: url("../image/BANNERITEM/bannershoprec\ 1.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+    height: 50vh;
+    max-width: 40em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left ;
+    padding-left: 45em;
+    margin-bottom: 20px;
+}
+
+#bouton-banniere{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    background: linear-gradient(180deg, #FFB202 0%, #E7902A 100%);
+    height: 5vh;
+    border-radius: 7px;
+    padding: 10px 100px;
+}
+
+#test-titre{
+    font-family:"Rugen Expanded", sans-serif;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+h2{
+    font-family:"Rugen Expanded", sans-serif;
+    margin-bottom: 20px;
+}
+/**FOOTER**/
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer{
+    background-color: #08101d;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding: 50px;
+    
+}
+
+#logo-footer img{
+    width: 250px;
+    height: auto;
+}
+
+#footer-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#reseau{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#reseau img{
+    margin-bottom: 15px;
+}
+
+#help-and-support{
+    display: flex;
+    align-items: top;
+    margin-bottom: 45px;
+}
